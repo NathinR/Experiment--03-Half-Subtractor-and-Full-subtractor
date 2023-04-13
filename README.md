@@ -1,5 +1,5 @@
-# Experiment--03-Half-Subtractor-and-Full-subtractor
-## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
+# Experiment--04-Half-Subtractor-and-Full-subtractor
+
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -26,11 +26,15 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
+1.Use module projname(input,output) to start the Verilog programmming. 
 
+2.Assign inputs and outputs using the word input and output respectively.
 
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
 
-Write the detailed procedure here 
+4.Use each output to represnt onre for differnce and the other for borrow. 
 
+5.End the verilog program using keyword endmodule.
 
 ## Program:
 ```
@@ -77,9 +81,10 @@ endmodule
 
 ## Truthtable
 ### HalfSubtractor
-![image](https://user-images.githubusercontent.com/118679646/231665091-0acccca8-6c77-4504-b363-401529413c68.png)
+![image](https://user-images.githubusercontent.com/118679646/231669731-56fac0bf-6911-4cae-b10b-1a9a346606ea.png)
+
 ### FullSubtractor
-![image](https://user-images.githubusercontent.com/118679646/231667943-2e1f152a-eb5b-4a7b-92f0-4e4aec54e7d6.png)
+![image](https://user-images.githubusercontent.com/118679646/231669288-778c1e73-b148-48c7-9ff1-8c336e376bc3.png)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
